@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 
 from pyworld3 import World3
 from pyworld3.utils import plot_world_variables
+from matplotlib.pyplot import show
 
 params = {'lines.linewidth': '3','axes.labelsize' : '12', 'xtick.labelsize' : '10', 'ytick.labelsize' : '10', 'figure.autolayout' : 'True'}
 plt.rcParams.update(params)
@@ -103,7 +104,7 @@ if szenario == 3:
                      [[0, 1.975], [0, 4e12], [0, 6e12], [0, 12e9], [0, 40]],
                      img_background="./img/fig 4-3-1.jpg",
                      figsize=(7, 5),
-                     title="World3 More Resources and Pollution Control, 2004 Szenario 2")
+                     title="World3 More Resources and Pollution Control, 2004 Szenario 3")
 
     plot_world_variables(world3.time,
                      [world3.le, world3.fpc, world3.sopc, world3.ciopc],
@@ -111,13 +112,15 @@ if szenario == 3:
                      [[0, 90], [0,1020],[0,970], [0, 250]],
                      img_background="./img/fig 4-3-2.jpg",
                      figsize=(7, 5),
-                     title="World3 More Resources and Pollution Control - Material standard of living, 2004 Szenario 2")
+                     title="World3 More Resources and Pollution Control - Material standard of living, 2004 Szenario 3")
 
     plot_world_variables(world3.time,
                      [world3.ef, world3.hwi],
                      ["EF", "HWI"],
                      [[0, 4.2], [0,1]],
                      img_background="./img/fig 4-3-3.jpg",
-                     figsize=(7, 5), title="World3 More Resources and Pollution Control - Human Wellfare and Footprint, 2004 Szenario 2")
+                     figsize=(7, 5), title="World3 More Resources and Pollution Control - Human Wellfare and Footprint, 2004 Szenario 3")
     
     print("Szenario 3: More Resources and Pollution Control")
+
+show()
