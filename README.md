@@ -4,12 +4,15 @@
 
 [![License: CeCILL 2.1](https://img.shields.io/badge/licence-CeCILL%202.1-028181)](https://opensource.org/licenses/CECILL-2.1)
 
+## Please see [NOTES.md](NOTES.md) for details about this fork.
+
 + [Install & Hello World3](#Install-and-Hello-World3)
 + [How to tune your own simulation](#How-to-tune-your-own-simulation)
 + [Licence](#Licence)
 + [References & acknowledgment](#References-and-acknowledgment)
 
 ---
+
 
 PyWorld3 was updated to the 2004 version PyWorld3-03 with the original STELLA version of the book "Limits to Growth: The 30-year update". PyWorld3-03 has been verified with the original simulation. Not all functionalities have been implemented. See original PyWorld3 (https://github.com/cvanwynsberghe/pyworld3).
 
