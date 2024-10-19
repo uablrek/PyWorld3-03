@@ -18,3 +18,5 @@ apt install -y python3-pip python3-full python3-numpy python3-scipy \
 python3 run_different_standard_configurations.py
 #git status -u --ignored (to see what's generated)
 ```
+
+

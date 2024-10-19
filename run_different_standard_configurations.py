@@ -17,7 +17,7 @@ Choose Szenario:
     
 Disclaimer: Szenario 2 and 3 do not match the szenarios of "Limits to Growth: The 30-year update", because some parameters were changed wich are not descriped.  
 """
-szenario = 3
+szenario = 2
 
 if szenario == 1:
 

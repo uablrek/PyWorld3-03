@@ -71,7 +71,7 @@ class World3(Population, Capital, Agriculture, Pollution, Resource):
     year_max : float, optional
         end year of the simulation [year]. The default is 2100.
     dt : float, optional
-        time step of the simulation [year]. The default is 1.
+        time step of the simulation [year]. The default is 0.5.
     pyear : float, optional
         implementation date of new policies [year]. The default is 1975.
     pyear_res_tech : float, optional
